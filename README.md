@@ -3,6 +3,7 @@ Translates and saves the translated words with their corresponding...
 
 # Used technologies
 Language:Python
+
 Modules:googletrans, sqlite3, PyQt5, sys
 
 # Feedback
