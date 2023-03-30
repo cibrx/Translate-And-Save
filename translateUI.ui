@@ -62,7 +62,17 @@
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="txt_current"/>
+      <widget class="QLineEdit" name="txt_current">
+       <property name="echoMode">
+        <enum>QLineEdit::Normal</enum>
+       </property>
+       <property name="dragEnabled">
+        <bool>true</bool>
+       </property>
+       <property name="clearButtonEnabled">
+        <bool>true</bool>
+       </property>
+      </widget>
      </item>
      <item>
       <layout class="QVBoxLayout" name="verticalLayout">
@@ -132,7 +142,11 @@
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="txt_translated"/>
+      <widget class="QLineEdit" name="txt_translated">
+       <property name="clearButtonEnabled">
+        <bool>true</bool>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
@@ -164,7 +178,11 @@
      <item>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
-        <widget class="QLineEdit" name="txt_deleteToWord"/>
+        <widget class="QLineEdit" name="txt_deleteToWord">
+         <property name="clearButtonEnabled">
+          <bool>true</bool>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="QPushButton" name="btn_deleteToWord">
